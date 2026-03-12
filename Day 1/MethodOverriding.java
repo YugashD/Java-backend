@@ -7,12 +7,12 @@ class family{
         System.out.println("Family girl, family property");
     }
 }
-public class demo5 extends family{
+public class MethodOverriding extends family{
     void marry() {
         System.out.println("Campus girl, no family property");
     }
     public static void main(String[] args) {
-        demo5 d=new demo5();
+        MethodOverriding d=new MethodOverriding();
         d.marry();
         d.property();
     }

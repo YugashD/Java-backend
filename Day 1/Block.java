@@ -1,6 +1,6 @@
 package com.abc;
 
-public class demo3 {
+public class Block {
 
     {
         System.out.println("Heello block");
@@ -10,12 +10,12 @@ public class demo3 {
         System.out.println("static Heello block");
     }
 
-    public demo3(){
+    public Block(){
         System.out.println("Hello");
     }
 
     public static void main(String[] args) {
-        demo3 demo = new demo3();
+        Block demo = new Block();
 
     }
 }

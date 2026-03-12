@@ -2,7 +2,7 @@ package march10Todo.payrollManagement;
 
 import java.util.Scanner;
 
-public class area {
+public class Area {
     double areaOfCircle(int radius){
         double area=0;
         area=Math.pow(radius,2)*3.14;
@@ -34,7 +34,7 @@ public class area {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter 1 for area of circle\nEnter 2 for area of triangle\nEnter 3 for finbonacci series\nEnter 4 for factorial");
-        area a=new area();
+        Area a=new Area();
         System.out.print("Enter your option: ");
         int op=sc.nextInt();
         switch (op) {

@@ -1,18 +1,19 @@
 package com.abc;
 
-class grandparents1 {
+class grandparents {
     void sugar() {
         System.out.println("I am having sugar");
     }
 }
-class parents1 extends grandparents1{
+class parents extends grandparents{
     void BP() {
         System.out.println("I am having BP");
     }
 }
-public class demo7 extends grandparents1{
+public class MultiLevelInheritance extends parents{
     public static void main(String[] args) {
-        demo7 d=new demo7();
+        MultiLevelInheritance d=new MultiLevelInheritance();
+        d.BP();
         d.sugar();
     }
 

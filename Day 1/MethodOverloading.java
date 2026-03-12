@@ -1,6 +1,6 @@
 package com.abc;
 
-public class demo4 {
+public class MethodOverloading {
 
     public void m1() {
         System.out.println("method");
@@ -9,7 +9,7 @@ public class demo4 {
         System.out.println("method with int parameter: "+a);
     }
     public static void main(String[] args) {
-        demo4 d=new demo4();
+        MethodOverloading d=new MethodOverloading();
         d.m1();
         d.m1(10);
     }

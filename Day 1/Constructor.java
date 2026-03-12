@@ -1,8 +1,8 @@
 package com.abc;
 
-public class demo1 {
+public class Constructor {
 
-    public demo1(int a) {
+    public Constructor(int a) {
         System.out.println("constrctor");
     }
 
@@ -11,7 +11,7 @@ public class demo1 {
     }
 
     public static void main(String[] args) {
-        demo1 demo = new demo1(3);
+        Constructor demo = new Constructor(3);
         demo.m1(3);
 
     }

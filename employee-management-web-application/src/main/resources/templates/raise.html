@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Raise Salary</title>
+</head>
+<body>
+<h2>Raise Salary</h2>
+<form id="raiseForm">
+    Employee ID: <input type="number" name="id" required/><br><br>
+    Percentage (e.g., 10 for 10%): <input type="number" name="percentage" required/><br><br>
+    <button type="submit">Raise</button>
+    <button type="button" onclick="location.href='/employees'">Back</button>
+</form>
+
+<script src="/js/frontend.js"></script>
+</body>
+</html>
+
